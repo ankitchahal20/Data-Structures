@@ -36,6 +36,5 @@ int main()
   root->right->left = node3Atlevel2;
   root->right->right = node4Atlevel2;
 
-  // count nodes
   cout<<"Height of given BT is : "<<calculateHeightRecurrsive(root)<<endl;
 }

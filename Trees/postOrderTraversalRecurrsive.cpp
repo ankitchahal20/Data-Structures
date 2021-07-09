@@ -34,7 +34,6 @@ int main()
   node2Atlevel1->left = node3Atlevel2;
   node2Atlevel1->right = node4Atlevel2;
 
-  // count nodes
   cout<<"Recurrsive post-order traversal is : ";
   postOrderRecurrsive(root);
 }
